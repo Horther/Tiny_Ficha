@@ -6,7 +6,7 @@
 }
 
 body {
-
+margin: 0px;
 }
 
 header {
@@ -31,3 +31,68 @@ main {
     margin: 3px;
     padding: 5px;
 }
+
+#divHeranças {
+    position: relative;
+    margin: auto;
+    padding: 5px;
+    background-color: darkseagreen;
+
+}
+
+#heranças {
+    margin: 3px;
+    padding: 5px;
+
+}
+
+#vida {
+    margin: 3px;
+    padding: 5px;
+    width: 30px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    border-style: none;
+    color: #fff;
+}
+
+#infoHerança {
+    background-color: darkolivegreen;
+    height: 3px;
+}
+
+#infoTracos {
+    margin: auto;
+    padding: 5px;
+    background-color: darkcyan;
+    
+}
+
+#infoArmasProficientes {
+    margin: auto;
+    padding: 5px;
+    background-color: darkslategray;
+}
+
+#armasProficientes {
+    display: inline-block;
+    padding: 5px;
+}
+
+#listaArmas {
+    display: block;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+#infoInventario {
+    margin: auto;
+    padding: 5px;
+    background-color: dimgray;
+}
+
+#listaInventario {
+    padding: 5px;
+}
+
