@@ -4,3 +4,30 @@
     margin: 0%;
     padding: 0%;
 }
+
+body {
+
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    height: 1169px;
+    width: 826px;
+    margin: auto;
+}
+#personagem {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.infoPersonagem {
+    margin: 3px;
+    padding: 5px;
+}

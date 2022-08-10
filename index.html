@@ -6,15 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiny Dungeon</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <h1>Tiny Dungeon Ficha</h1>
     <header>
-        <input type="text" id="nome">
-        <select id="herança">Herança</select>
-        <input type="text" id="vida" readonly>
+        <h1>Tiny Dungeon Ficha</h1>    
     </header>
     <main>
+        <div id="personagem">
+            <h2>Personagem</h2>
+            <input type="text" class="infoPersonagem" id="nome" placeholder="Nome">
+            <input type="text" class="infoPersonagem" id="povo" placeholder="Povo">
+            <input type="text" class="infoPersonagem" id="pátria" placeholder="Pátria">
+            <input type="text" class="infoPersonagem" id="idade" placeholder="Idade">
+            <input type="text" class="infoPersonagem" id="ramoFamiliar" placeholder="Ramo Familiar">
+            <input type="text" class="infoPersonagem" id="crença" placeholder="Crença">
+        </div>
+        <div id="infoHeranças">
+            <h2>Lista de Heranças</h2>
+            <select id="herança">
+                <option value="placeHolder">Heranças</option>
+                <option value="hum">Humanos</option>
+                <option value="fey">Fey</option>
+                <option value="ano">Anões</option>
+                <option value="gob">Goblins</option>
+                <option value="sal">Salimar</option>
+                <option value="arv">Arvorídeos</option>
+                <option value="kar">Karhu</option>
+                <option value="lag">Lagartinos</option>  
+            </select>
+            <input type="text" id="vida" readonly placeholder="VIDA">
+            <div id="textoHerança" >
+
+            </div>
+        </div>
+        <div id="infoTraços">
+            <h2>Traços</h2>
+            <select id="traços">
+
+            </select>
+        </div>
+        <div id="infoArmasProficientes">
+            <h2>Armas Proficientes</h2>
+            <select id="armasProficientes">
+                <option value="leve">Leve</option>
+                <option value="pesado">Pesado</option>
+                <option value="aDistancia">À Distância</option>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Espada curta"></textarea>
+            </select>
+        </div>
+        <div id="infoInventario">
+            <h2>Inventário</h2>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Corda de Cânhamo"></textarea>
+        </div>
 
     </main>
 
