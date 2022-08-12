@@ -20,11 +20,11 @@
             <input type="text" class="infoPersonagem" id="pátria" placeholder="Pátria">
             <input type="text" class="infoPersonagem" id="idade" placeholder="Idade">
             <input type="text" class="infoPersonagem" id="ramoFamiliar" placeholder="Ramo Familiar">
-            <input type="text" class="infoPersonagem" id="crença" placeholder="Crença">
+            <textarea id="crença" cols="20" rows="3" placeholder="Água mole, pedra dura e fim de papo"></textarea>
         </div>
         <div id="divHeranças">
             <h2>Lista de Heranças</h2>
-            <select id="heranças">
+            <select id="heranças" onchange="selecao()">
                 <option value="placeHolder">Heranças</option>
                 <option value="hum">Humanos</option>
                 <option value="fey">Fey</option>

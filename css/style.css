@@ -32,6 +32,12 @@ main {
     padding: 5px;
 }
 
+#crença {
+    display: block;
+    margin: 3px;
+    padding: 5px;
+}
+
 #divHeranças {
     position: relative;
     margin: auto;
@@ -59,7 +65,8 @@ main {
 
 #infoHerança {
     background-color: darkolivegreen;
-    height: 3px;
+    height: 0px;
+    color: #fff;
 }
 
 #infoTracos {
