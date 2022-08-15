@@ -20,7 +20,7 @@
             <input type="text" class="infoPersonagem" id="pátria" placeholder="Pátria">
             <input type="text" class="infoPersonagem" id="idade" placeholder="Idade">
             <input type="text" class="infoPersonagem" id="ramoFamiliar" placeholder="Ramo Familiar">
-            <textarea id="crença" cols="20" rows="3" placeholder="Água mole, pedra dura e fim de papo"></textarea>
+            <textarea id="crença" cols="20" rows="3" placeholder="Sua Crença"></textarea>
         </div>
         <div id="divHeranças">
             <h2>Lista de Heranças</h2>
@@ -42,9 +42,16 @@
         </div>
         <div id="infoTracos">
             <h2>Traços</h2>
-            <select id="traços">
-
+            <select id="traços" onchange="Traços()">
+                <option value="placeHolder">Lista de Traços</option>
+                <option value="Pg1">Pagina 1</option>
+                <option value="Pg2">Pagina 2</option>
+                <option value="Pg3">Pagina 3</option>
+                <option value="Pg3">Pagina 4</option>
             </select>
+            <div id="pgsTracos">
+
+            </div>
         </div>
         <div id="infoArmasProficientes">
             <h2>Armas Proficientes</h2>
@@ -62,7 +69,7 @@
 
     </main>
 
-    <footer> made by Horther</footer>
+    <footer> made by @FHorther</footer>
 
     <script src="js/script.js"></script>
 </body>
