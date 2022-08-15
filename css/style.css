@@ -1,8 +1,9 @@
 @charset 'UTF-8';
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 body {
@@ -16,9 +17,11 @@ header {
 
 main {
     height: 1169px;
-    width: 826px;
+    max-width: 826px;
     margin: auto;
+    padding: 3px;
 }
+
 #personagem {
     position: relative;
     display: inline-block;
@@ -113,6 +116,3 @@ main {
     padding: 5px;
 }
 
-footer {
-    text-align: center;
-}
